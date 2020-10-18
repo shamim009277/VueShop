@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+p{
+	font-family: "Open Sans",sans-serif;
+	font-size:16px;
+}
+h1{
+	font-size: 28px;
+    font-weight: bolder;
+    padding: 5px 0px;
+    font-style: oblique;
+}
+ .facebook-bg{
+       background-color: #066094;
+    }
+    .instagram-bg{
+       background-color: #f13041;
+    }
+    .twitter-bg{
+       background-color: #65c0f5;
+    }
+    .pinterest-bg{
+       background-color: #c71828;
+    }
+    .linkedin-bg{
+       background-color: #3C718A;
+    }
+    .facebook-bg:hover{
+       background-color: #86E9E2;
+    }
+    .instagram-bg:hover{
+       background-color: #86E9E2;
+    }
+    .twitter-bg:hover{
+       background-color: #86E9E2;
+    }
+    .pinterest-bg:hover{
+       background-color: #86E9E2;
+    }
+    .linkedin-bg:hover{
+       background-color: #86E9E2;
+    }
+.title{
+	font-size: 24px;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: bold;
+}
+.top-100{
+    margin-top: 100px;
+}
+.top-50{
+    margin-top: 50px;
+}
+.bottom{
+	margin-bottom: 50px;
+}
+.border{
+     border: 1px solid #dcdada;
+   }
+
+.card-img-top{
+      width: 80%;
+      padding: 20px 10px;
+      margin:0px auto;
+      
+   }
+   .checked{
+     color:orange;
+   }

@@ -32,7 +32,23 @@
   	   	  </div>
   	   	  <div class="col-md-4">
   	   	  	 <div class="sidebar border">
-  	   	  	 	<h1>sidebar</h1>
+  	   	  	 	<h4 class="title-top">Top Rated Product</h4>
+  	   	  	 	<div class="top-rated-product" v-for="top in tops">
+	  	   	  	 	<a href="#">
+	  	   	  	 	  <div class="rated">
+	  	   	  	 		<img src="img/pr.jpg" alt="...">
+	  	   	  	 		<h6>Latest Watch-A735</h6>
+	  	   	  	 		<p>
+		                  <span class="fa fa-star checked size"></span>
+		                  <span class="fa fa-star checked size"></span>
+		                  <span class="fa fa-star checked size"></span>
+		                  <span class="fa fa-star checked size"></span>
+		                  <span class="fa fa-star-half-alt checked size"></span>
+		                  (5.6)
+		                </p>
+		              </div>
+		            </a>
+  	   	  	 	</div>
   	   	  	 </div>
   	   	  </div>
   	   </div>
@@ -47,7 +63,8 @@ export default {
   name: "ProductShop",
   data(){
   	return{
-       products:10,
+       products:12,
+       tops:7,
   	}
   },
   components:{
@@ -61,6 +78,39 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+  .top-rated-product{
+     height: 100px;
+     background-color: #fff;
+     padding: 15px 5px;
+  }
+  .top-rated-product img{
+      width:30%;
+      float:left;
+      margin-right:10px;   
+  }
+  p{
+  	font-size:12px;
+  	font-weight:bold;
+  }
+  .size{
+  	font-size:8px;	
+  }
+  .rated{
+  	text-align: left;
+  }
+  h6{
+  	margin:0px;
+  	padding:0px;
+  	font-size:14px;
+  	font-weight:bold;
+  	color:#05736c;
+  }
+  a{
+  	text-style-type:none;
+  }
+  .title-top{
+  	 padding: 15px 10px;
+  	 color: #0e1290;
+  }
   
 </style>

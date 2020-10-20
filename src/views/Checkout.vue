@@ -48,7 +48,7 @@
                 <textarea name="message" class="form-control" rows="5"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-outline-info">Submit</button>
+              <button type="submit" class="btn btn-outline-info btn-md">Submit</button>
             </form>
             </div>
           </div> 
@@ -104,7 +104,8 @@
                   <a href="" class="btn btn-outline-info btn-md mt-5">Place Order</a>
               </div>
             </div>
-          </div> 
+          </div>
+
         </div> 
       </div>
     </div>
@@ -126,10 +127,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .banner{
-     width:100%;
-     height:230px;
-  }
   .container{
     text-align:left;
   }
@@ -145,12 +142,7 @@ export default {
    min-height: 40px;
    padding: 0px 10px;
  }
- .left{
-   float:left;
- }
- .right{
-    float:right;
- }
+ 
  ul {
   list-style-type: none;
   margin: 0;

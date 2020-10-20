@@ -1,45 +1,75 @@
 @import '~bootstrap/scss/bootstrap.scss';
-
+body{
+	font-family: "Open Sans",sans-serif;
+	margin:0;
+	padding:0;
+}
 p{
 	font-family: "Open Sans",sans-serif;
 	font-size:16px;
 }
 h1{
 	font-size: 28px;
-    font-weight: bolder;
-    padding: 5px 0px;
-    font-style: oblique;
+	font-weight: bolder;
+	padding: 5px 0px;
+	font-style: oblique;
 }
+h3{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: ui-sans-serif;
+}
+h4{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: ui-sans-serif;
+}
+h5{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: ui-sans-serif;
+}
+
+.left{
+   float:left;
+ }
+ .right{
+    float:right;
+ }
+ .banner{
+    width:100%;
+    height:230px;
+ }
  .facebook-bg{
-       background-color: #066094;
-    }
-    .instagram-bg{
-       background-color: #f13041;
-    }
-    .twitter-bg{
-       background-color: #65c0f5;
-    }
-    .pinterest-bg{
-       background-color: #c71828;
-    }
-    .linkedin-bg{
-       background-color: #3C718A;
-    }
-    .facebook-bg:hover{
-       background-color: #86E9E2;
-    }
-    .instagram-bg:hover{
-       background-color: #86E9E2;
-    }
-    .twitter-bg:hover{
-       background-color: #86E9E2;
-    }
-    .pinterest-bg:hover{
-       background-color: #86E9E2;
-    }
-    .linkedin-bg:hover{
-       background-color: #86E9E2;
-    }
+    background-color: #066094;
+}
+.instagram-bg{
+    background-color: #f13041;
+}
+.twitter-bg{
+    background-color: #65c0f5;
+}
+.pinterest-bg{
+    background-color: #c71828;
+}
+.linkedin-bg{
+    background-color: #3C718A;
+}
+.facebook-bg:hover{
+    background-color: #86E9E2;
+}
+.instagram-bg:hover{
+    background-color: #86E9E2;
+}
+.twitter-bg:hover{
+    background-color: #86E9E2;
+}
+.pinterest-bg:hover{
+    background-color: #86E9E2;
+}
+.linkedin-bg:hover{
+    background-color: #86E9E2;
+}
 .title{
 	font-size: 24px;
     font-family: 'Font Awesome 5 Pro';
@@ -54,16 +84,18 @@ h1{
 .bottom{
 	margin-bottom: 50px;
 }
+.bottom-100{
+	margin-bottom: 100px;
+}
 .border{
-     border: 1px solid #dcdada;
-   }
-
+    border: 1px solid #dcdada;
+}
 .card-img-top{
-      width: 80%;
-      padding: 20px 10px;
-      margin:0px auto;
-      
-   }
-   .checked{
-     color:orange;
-   }
+    width: 80%;
+    padding: 20px 10px;
+    margin:0px auto;    
+}
+.checked{
+    color:orange;
+}
+

@@ -35,7 +35,6 @@ export default {
   components:{
     Navbar,Hero,Product,Footer
   },
-  
 };
 </script>
 <style scoped lang="scss">

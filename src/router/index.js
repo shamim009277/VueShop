@@ -4,6 +4,8 @@ import ProductShop from "../views/ProductShop.vue";
 import Blog from "../views/Blog.vue";
 import Cart from "../views/Cart.vue";
 import Checkout from "../views/Checkout.vue";
+import Contact from "../views/Contact.vue";
+import ProductDetails from "../views/ProductDetails.vue";
 
 const routes = [
   {
@@ -30,6 +32,16 @@ const routes = [
     path: "/checkout",
     name: "Checkout",
     component: Checkout
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: Contact
+  },
+  {
+    path: "/product_details",
+    name: "ProductDetails",
+    component: ProductDetails
   },
   {
     path: "/about",

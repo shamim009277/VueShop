@@ -24,9 +24,12 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <a class="btn btn-outline-success my-2 my-sm-0">Get Starte</a>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-5">Get Starte</a>
           </form>
-        </div> 
+        </div>
+        <a href="#" class="btn btn-outline-info mr-4">
+            <i class="fas fa-cart-plus pr-2"><span class="badge badge-light"><b> 3</b></span></i>
+        </a> 
       </div>
       </nav>
   </div>
@@ -43,8 +46,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-   @media (min-width: 992px) { 
-    
+   @media (min-width: 992px) {  
     .navbar.custom-nav{
       padding-top:16px;
       padding-bottom:16px;

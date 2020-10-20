@@ -82,8 +82,7 @@ export default {
 <style scoped lang="scss">
    .product{
       width:100%;
-      background-color:#F9F9F9;
-      
+      background-color:#F9F9F9;  
    }
    
 </style>

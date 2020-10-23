@@ -91,11 +91,13 @@
          </div>
        </div>
      </div>
+     <Footer></Footer>
   </div>
 </template>
 
 <script>
   import Navbar from '../components/Navbar';
+  import Footer from '../components/Footer';
 export default {
   name: "ProductDetails",
   data(){
@@ -114,7 +116,7 @@ export default {
      }
   },
   components:{
-    Navbar
+    Navbar,Footer
   },
   props: {
     msg: String
@@ -190,7 +192,5 @@ export default {
   .size{
     font-size:12px;
   }
-
-
 
 </style>

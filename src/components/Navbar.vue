@@ -20,11 +20,22 @@
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/blogs">Blog</router-link>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <router-link class="dropdown-item" to="/cart">Cart Page</router-link>
+                <router-link class="dropdown-item" to="/checkout">Checkout</router-link>
+                <router-link class="dropdown-item" to="/contact">Contact</router-link>
+                <router-link class="dropdown-item" to="/product_details">Product Details</router-link>
+              </div>
             </li>  
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <a class="btn btn-outline-success my-2 my-sm-0 mr-5">Get Starte</a>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-5" data-toggle="modal" data-target="#login">Get Starte</a>
           </form>
         </div>
         <a href="#" class="btn btn-outline-info mr-4">

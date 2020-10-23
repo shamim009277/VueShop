@@ -20,6 +20,7 @@
       </div>
     </div>
     <Footer></Footer>
+    <Login></Login>
   </div>
 </template>
 
@@ -30,10 +31,11 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Product from "../section/Product";
 import Footer from "../components/Footer";
+import Login from "../components/Login";
 export default {
   name: "Home",
   components:{
-    Navbar,Hero,Product,Footer
+    Navbar,Hero,Product,Footer,Login
   },
 };
 </script>

@@ -19,13 +19,14 @@
 		                <input type="text" class="col-md-5 form-control center" id="phone" placeholder="Phone*" name="phone">
 		            </div>
 		            <div class="row form-group">
-		                <textarea name="message" class="col-md-11 form-control center" placeholder="Message ..."></textarea>
+		                <textarea name="message" class="col-md-11 form-control center" rows="5" placeholder="Message ..."></textarea>
 		            </div>
 		            <button type="submit" class="btn btn-outline-info btn-md my-4">Send Us</button>
      			</form>
      		</div>
      	</div>
      </div>
+     <Footer></Footer>
   </div>
 </template>
 
@@ -35,7 +36,7 @@
 export default {
   name: "Contact",
   components:{
-     Navbar
+     Navbar,Footer
   },
   props: {
     msg: String

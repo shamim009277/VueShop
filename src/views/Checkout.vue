@@ -105,19 +105,20 @@
               </div>
             </div>
           </div>
-
         </div> 
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from '../components/Navbar.vue';  
+import Footer from '../components/Footer.vue';  
 export default {
   name: "Checkout",
   components:{
-    Navbar
+    Navbar,Footer
   },
   props: {
     msg: String
